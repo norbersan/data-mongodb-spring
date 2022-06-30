@@ -1,8 +1,10 @@
 spring:
   data:
     mongodb:
-      #uri: mongodb://localhost:27017/
-      host: localhost
-      port: 27017
-      database: test
+      repositories:
+        enabled: true
+      uri: mongodb://localhost:27017/test
+      #host: localhost
+      #port: 27017
+      #database: test
 
